@@ -75,6 +75,16 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'home',
           path: '/home',
           builder: (context, params) => const HomeWidget(),
+        ),
+        FFRoute(
+          name: 'hoddies',
+          path: '/hoddies',
+          builder: (context, params) => const HoddiesWidget(),
+        ),
+        FFRoute(
+          name: 'hoddiesCopy',
+          path: '/hoddiesCopy',
+          builder: (context, params) => const HoddiesCopyWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

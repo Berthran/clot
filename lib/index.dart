@@ -8,3 +8,5 @@ export '/reset_password_notification/reset_password_notification_widget.dart'
     show ResetPasswordNotificationWidget;
 export '/about_info/about_info_widget.dart' show AboutInfoWidget;
 export '/home/home_widget.dart' show HomeWidget;
+export '/hoddies/hoddies_widget.dart' show HoddiesWidget;
+export '/hoddies_copy/hoddies_copy_widget.dart' show HoddiesCopyWidget;
